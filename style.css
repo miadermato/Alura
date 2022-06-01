@@ -1,13 +1,21 @@
 body {
-    background: #cccccc
+    
 
 }
 
 #banner{
    
 }
+.Principal{
+    background: #cccc;
+    padding:30px ;
+    margin-top: 10px;
+}
+.Beneficios{
+    background: white;
+}
 
-h1 {
+.text-centralized {
    text-align: center
 }
 
@@ -23,4 +31,16 @@ em strong {
 }
 .itens {
     font-style: italic;
+}
+.style-header{
+    padding-left: 20px;
+}
+.imagembeneficios {
+    width: 50%;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%; 
+    margin-right: 5%;
 }
