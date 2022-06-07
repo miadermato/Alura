@@ -1,4 +1,5 @@
 header {
+    padding: 20px 0;
     background: #bbbbbb;
 }
 
@@ -15,3 +16,14 @@ nav a {
     text-decoration: none;
 }
 
+.style-nav{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.caixa {
+    width: 940px;
+    position: relative; 
+    margin: 0 auto; 
+    
+}
