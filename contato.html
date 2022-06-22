@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contato - Barberia Melo</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+
+            <h1><img src="BarbeariaMelo.jpg" alt="logo da Barbearia Alura"></h1>
+
+            <nav class="style-nav">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="Contato.html">Contacto</a>
+                    </li>
+
+
+                    <!-- <sopa>
+                    <batata>
+
+                    </batata>
+                    <cenoura>
+
+                    </cenoura>
+                    <carne>
+
+                    </carne>
+                    <pao>
+                        <maionese>
+                            <alho>
+
+                            </alho>
+                            <cenoura>
+
+                            </cenoura>
+                            
+                        </maionese>
+                    </pao>
+                </sopa> -->
+
+                    <!--o black é para abrir uma nova pag em outra aba e o self abre na mesma aba-->
+                    <li><a href="https://www.linkedin.com/in/marciagmelo" target="_blank">IN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+     <form>
+         <label for="nombreyapellido" >Nombre y Apellido</label>
+         <input type="text" id="nombreyapellido" class="input-padrão" required>
+
+         <label for="correoelectrónico">Correo Electrónico</label>
+         <input type="e-mail" id="e-mail" class="input-padrão" required placeholder="sucorreo@dominio.com">
+
+         <label for="teléfono">Teléfono</label>
+         <input type="tel" id="telefone" class="input-padrão" required placeholder="(xx)xxxxx-xxxx">
+
+         <label for="mensaje"> Mensaje </label>
+         <textarea cols="70" rows="10" id="mensagem" class="input-padrão" required></textarea>
+
+         <fieldset> 
+          
+                <legend>¿Cómo prefieres nuestro contacto?</legend>
+                
+                <label for="radio-e-mail"><input type="radio" name="contato" value="e-mail" id="radio.e-mail"> Correo electrónico</label>
+                
+                
+                <label for="radio-teléfono"><input type="radio" name="contato" value="teléfono" id="radio-teléfono"> Teléfono</label>
+                
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                                
+         </fieldset>
+
+            <fieldset>
+                <legend>¿A que hora prefieres que te atiendan?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>      
+
+            <label class="checkbox"><input type="checkbox" checked> Te gustaria recibir nuestras novedades por correo electrónico?</label>
+             
+         <input type="submit" value=" Enviar Formulário" class="enviar">
+     </form>
+     <table>
+         <thead>
+
+             <tr>
+                 <th>Día</th>
+                 <th>Horario</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>8h ~ 20h</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+     </table>
+
+    </main>
+
+    <footer>
+        <img src="BarbeariaMelo.jpg" alt="logo da Barbearia Alura">
+        <p class="copyright">&copy; Copyright Barberia Melo - 2019 
+    </footer>
+
+</body>
+
+</html> 
+
